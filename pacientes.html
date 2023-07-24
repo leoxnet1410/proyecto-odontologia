@@ -26,6 +26,7 @@
                       <a class="nav-link" href="inicio.html">Inicio</a>
                       <a class="nav-link" href="pacientes.html">Pacientes</a>
                       <a class="nav-link" href="#">historia</a>
+                      
                       <a class="nav-link" href="agenda.html">Agenda</a>
                       <a class="nav-link" href="Registrar.html">Iniciar Sesion</a>
                       
@@ -37,84 +38,79 @@
       <div class="container">
         <div class="row">
           
-          </div>
+        
           
             <h2 class="text-center">Pacientes</h2>
-            <div class="table-responsive mx-auto ml-auto text-center">
+            <div class="table-responsive mx-auto ml-md-0 text-center">
               <table class="table table-dark table-striped">
                 <thead>
                   <tr>
                     <th></th>
-                    <th>Nombre</th>
-                    <th>Apellido</th>
-                    <th>Cita</th>                            
-                    <th>Saldo</th>   
-                    <th>Próxima cita</th>  
-                    <th>tratamiento</th> 
+                    <th class="capitalize">Nombre</th>
+                    <th class="capitalize">Apellido</th>
+                    <th class="capitalize" >Cita</th>                            
+                    <th class="capitalize" >Saldo</th>   
+                    <th class="capitalize">proxima cita </th>  
+                    <th class="capitalize"> tratamiento</th> 
                     
-                    <th> <form class="d-flex" role="search">
-                      <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
-                      <button class="bg-Light" type="submit">Buscar</button>
-                    </form></th> 
-                    <th><button class="btn btn-light">Agregar paciente</button></th> 
                     
                    
                 </thead>
                 <tbody>
                   <tr>
                     <td>1</td>
-                    <td>Leonardo</td>
-                    <td>castillo</td>
-                    <td>20/08/23</td>
-                    <td>500</td>
-                    <td>30/09/23</td>
-                    <th>Limpieza</th> 
+                    <td class="capitalize">Leonardo</td>
+                    <td class="capitalize" >castillo</td>
+                    <td >20/08/23</td>
+                    <td class="align-right">500</td>
+                    <td >30/09/23</td>
+                    <th class="capitalize">Limpieza</th> 
                     
                   </tr>
                   <tr>
                     <td>2</td>
-                    <td>Alejandro</td>
-                    <td>castillo</td>
+                    <td class="capitalize">Alejandro</td>
+                    <td class="capitalize">castillo</td>
                     <td>30/08/23</td>
-                    <td>-800</td>
-                    <td>30/10/23</td>
-                    <th>tratamiento de conducto</th> 
+                    <td class="align-right">-800</td>
+                    <td class="capitalize">30/10/23</td>
+                    <th class="capitalize">tratamiento de conducto</th> 
                   </tr>
                   <tr>
                     <td>3</td>
-                    <td>pedro</td>
-                    <td>perez</td>
+                    <td class="capitalize">pedro</td>
+                    <td class="capitalize">perez</td>
                     <td>05/10/23</td>
-                    <td>100</td>
+                    <td class="align-right">100</td>
                     <td>02/09/23</td>
-                    <th>extraccion de cordal</th> 
+                    <th class="capitalize">extraccion de cordal</th> 
                   </tr>
                   <tr>
                     <td>4</td>
-                    <td>jorge</td>
-                    <td>luna</td>
+                    <td class="capitalize">jorge</td>
+                    <td class="capitalize">luna</td>
                     <td>15/11/23</td>
-                    <td>-600</td>
+                    <td class="align-right">-600</td>
                     <td>20/12/23</td>
-                    <th>Limpieza</th> 
+                    <th class="capitalize">Limpieza</th> 
                   </tr>
                   <tr>
                     <td>5</td>
-                    <td>robert</td>
-                    <td>gonzales</td>
-                    <td>20/09/23</td>
-                    <td>300</td>
-                    <td>30/09/23</td>
-                    <th>Limpieza</th> 
+                    <td class="capitalize">robert</td>
+                    <td class="capitalize"> gonzales</td>
+                    <td >20/09/23</td>
+                    <td class="align-right">300</td>
+                    <td >30/09/23</td>
+                    <th class="capitalize">Limpieza</th> 
                   </tr>
                   <tr>
                     <td>6</td>
-                    <td>maria</td>
-                    <td>aguilar</td>
+                    <td class="capitalize">maria</td>
+                    <td class="capitalize">aguilar</td>
                     <td>20/08/23</td>
-                    <td>0</td>
+                    <td class="align-right">0</td>
                     <td>25/10/23</td>
-                    <th>ortodoncia</th> 
+                    <th class="capitalize">ortodoncia</th> 
                   </tr>
                 </tbody>
               </table>
@@ -123,7 +119,12 @@
         </div>
       </div>
       
-      <!-- Bootstrap -->
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+        <button class="bg-Light" type="submit">Buscar</button>
+      </form>
+      <button class="btn btn-dark">Agregar paciente</button>
+      
       
      
 

@@ -1,5 +1,6 @@
 body{
-  overflow: hidden;
+  overflow-x: hidden;
+  
   background: #2980b9; 
   background: -webkit-linear-gradient(to right, #2980b9, #6dd5fa, #ffffff); 
   background: linear-gradient(to right, #2980b9, #6dd5fa, #ffffff); 
@@ -354,4 +355,79 @@ h2{
 img{
   position: relative;
   right: 140px;
+}
+
+.d-flex{
+  position: relative;
+  left: 700px;
+  top: -330px;
+}
+.container{
+  position: relative;
+  right: 250px;
+  top: 80px;
+}
+.btn{
+  position: relative;
+  left: 1320px;
+  top: -365px;
+}
+.align-right {
+  text-align: right;}
+  .capitalize {
+    text-transform: capitalize;}
+
+.limpieza{
+  position:relative;
+  left: 80px;
+  top: 10px;
+}
+.imagen{
+position: relative;
+left:0px;
+  object-fit: cover; 
+  height: 100%;
+  
+}
+.blanqueamiento{
+  position: relative;
+  left: 430px;
+  top: -385px;
+}
+.ortodoncia{
+  position: relative;
+  left: 800px;
+  top: -765px;
+}
+.extraccion{
+  position: relative;
+  top: -1230px;
+  left: 1200px;
+}
+textarea#mensaje {
+  resize: none;
+}
+.doctores{
+  color: black;
+  position: relative;
+  top: -60px;
+  left: 220px;
+}
+.img-fluid{
+  position: relative;
+  left: 30px;
+}
+.card{
+  position: relative;
+  left: 80px;
+  top: -70px;
+}
+.row{
+  position: relative;
+  left: 150px;
+}
+.contacto{
+  position: relative;
+  top: 10px;
+
 }
