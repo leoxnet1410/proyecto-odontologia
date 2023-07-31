@@ -1,0 +1,433 @@
+body{
+  overflow-x: hidden;
+  
+  background: #2980b9; 
+  background: -webkit-linear-gradient(to right, #2980b9, #6dd5fa, #ffffff); 
+  background: linear-gradient(to right, #2980b9, #6dd5fa, #ffffff); 
+  
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td{
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color:rgb(37, 230, 213);
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.content {
+  display: none;}
+
+ a{
+  text-decoration: none;
+  font-size: 20px;
+  position: relative;
+  color: black;
+ 
+  
+ } 
+ .form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  position: relative;
+  top: 60px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"],
+.form-group input[type="email"],
+.form-group select {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.form-group button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-group button:hover {
+  background-color: #45a049;
+}
+
+.form-group .login-link {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+}
+form {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+.enero {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  position: relative;
+  left: 20px;
+  top: 20px;
+ 
+}
+.primerdia{
+  grid-column-start: 0;
+}
+
+
+.calendario-enero,.calendario-febrero,.calendario-marzo,.calendario-abril,.calendario-mayo,.calendario-junio,
+.calendario-julio,.calendario-agosto,.calendario-septiembre,.calendario-octubre,.calendario-noviembre,.calendario-diciembre{
+  width: 280px;
+  position: relative;
+  left: 80px;
+  
+}
+.weekday {
+  background: #eee;
+}
+.calendario-enero>h1 {
+  position: relative;
+  top: 20px;
+  left: 30px;
+
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.febrero{
+  display: grid;
+  grid-template-columns: repeat(7, 3fr);
+  position: relative;
+  left: 400px;
+  top: -180px;
+  
+}
+.febrero>.primerdia{
+  grid-column-start: 4;
+}
+.calendario-febrero>h1{
+  position: relative;
+  left: 400px;
+  top:-180px ;
+}
+
+
+.marzo{
+  display: grid;
+  grid-template-columns: repeat(7, 3fr);
+  position: relative;
+  left:800px ;
+  top: -380px;
+
+}
+.marzo>.primerdia{
+  grid-column-start: 4;
+}
+.calendario-marzo>h1{
+  position: relative;
+  left: 800px;
+  top:-380px ;}
+
+
+
+.abril{
+  display: grid;
+  grid-template-columns: repeat(7, 3fr);
+  position: relative;
+  left:1200px ;
+  top: -580px;
+}
+.abril>.primerdia{
+  grid-column-start: 7;
+}
+.calendario-abril>h1{
+  position: relative;
+  left: 1200px;
+  top:-580px ;
+}
+.mayo{
+  display: grid;
+  grid-template-columns: repeat(7, 3fr);
+  position: relative;
+  top: -490px;
+  left: 20px;
+}
+.mayo>.primerdia{
+  grid-column-start: 2;
+}
+.calendario-mayo>h1{
+position: relative;
+top: -490px;
+  left: 20px;
+}
+.junio{
+  display: grid;
+  grid-template-columns: repeat(7, 3fr);
+  position: relative;
+  left: 400px;
+  top: -690px;
+}
+.junio>.primerdia{
+  grid-column-start:5;
+}
+.calendario-junio>h1{
+  position: relative;
+  left: 400px;
+  top: -690px;
+}
+.julio{
+  display: grid;
+  grid-template-columns: repeat(7, 3fr);
+  position: relative;
+  left: 800px;
+  top: -890px;
+
+}
+.julio>.primerdia{
+  grid-column-start: 7;
+}
+.calendario-julio>h1{
+  position: relative;
+  left: 800px;
+  top: -890px;
+}
+.agosto{
+  display: grid;
+  grid-template-columns: repeat(7, 3fr);
+  position: relative;
+  left: 1200px;
+  top: -1130px;
+}
+.agosto>.primerdia{
+  grid-column-start: 3;
+}
+.calendario-agosto>h1{
+  position: relative;
+  left: 1200px;
+  top: -1130px;}
+.septiembre{
+  display: grid;
+  grid-template-columns: repeat(7, 3fr);
+  position: relative;
+  top: -1020px;
+  left: 20px;
+}
+.septiembre>.primerdia{
+  grid-column-start: 6;
+}
+.calendario-septiembre>h1{
+  position: relative;
+  top: -1020px;
+  left: 20px;
+}
+
+
+
+.octubre{
+  display: grid;
+  grid-template-columns: repeat(7, 3fr);
+  position: relative;
+  left:400px ;
+  top:-1220px;
+}
+.octubre>.primerdia{
+  grid-column-start: 0;
+}
+.calendario-octubre>h1{
+  position: relative;
+  left: 400px;
+  top:-1220px ;
+}
+.noviembre{
+  display: grid;
+  grid-template-columns: repeat(7, 3fr);
+  position: relative;
+  left: 800px;
+  top: -1420px;
+
+
+}
+.noviembre>.primerdia{
+  grid-column-start: 4;
+}
+.calendario-noviembre>h1{
+  position: relative;
+  left: 800px;
+  top: -1420px;
+}
+.diciembre{
+  display: grid;
+  grid-template-columns: repeat(7, 3fr);
+  position: relative;
+  left:1200px ;
+  top:-1640px ;
+}
+.diciembre>.primerdia{
+  grid-column-start: 6;
+}
+.calendario-diciembre>h1{
+  position: relative;
+  left:1200px ;
+  top:-1640px ;
+}
+#tareaInput {
+  display: block;
+  margin-top: 10px;
+  width: 200px;
+}
+
+#guardarBtn {
+  display: block;
+  margin-top: 10px;
+}
+h2{
+  color: white;
+}
+
+
+.navbar-brand{
+  position: relative;
+  left: 30px;
+}
+img{
+  position: relative;
+  right: 140px;
+}
+
+.d-flex{
+  position: relative;
+  left: 700px;
+  top: -330px;
+}
+.container{
+  position: relative;
+  right: 250px;
+  top: 80px;
+}
+.btn{
+  position: relative;
+  left: 1320px;
+  top: -365px;
+}
+.align-right {
+  text-align: right;}
+  .capitalize {
+    text-transform: capitalize;}
+
+.limpieza{
+  position:relative;
+  left: 80px;
+  top: 10px;
+}
+.imagen{
+position: relative;
+left:0px;
+  object-fit: cover; 
+  height: 100%;
+  
+}
+.blanqueamiento{
+  position: relative;
+  left: 430px;
+  top: -385px;
+}
+.ortodoncia{
+  position: relative;
+  left: 800px;
+  top: -765px;
+}
+.extraccion{
+  position: relative;
+  top: -1230px;
+  left: 1200px;
+}
+textarea#mensaje {
+  resize: none;
+}
+.doctores{
+  color: black;
+  position: relative;
+  top: -60px;
+  left: 220px;
+}
+.img-fluid{
+  position: relative;
+  left: 30px;
+}
+.card{
+  position: relative;
+  left: 80px;
+  top: -70px;
+}
+.row{
+  position: relative;
+  left: 150px;
+}
+.contacto{
+  position: relative;
+  top: 10px;
+
+}
